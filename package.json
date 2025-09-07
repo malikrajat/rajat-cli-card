@@ -1,0 +1,24 @@
+{
+  "name": "@YOUR-NPM-USERNAME/about",
+  "version": "1.0.0",
+  "description": "About Me CLI for Rajat",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "rajat": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "about",
+    "cli",
+    "rajat"
+  ],
+  "author": "Rajat Malik",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "figlet": "^1.8.2"
+  }
+}
