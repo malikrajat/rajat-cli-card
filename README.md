@@ -109,7 +109,7 @@ rajat-card
 ### Local Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/malikrajat/rajat-about.git
+git clone https://github.com/malikrajat/rajat-cli-card.git
 cd rajat-about
 
 # Install dependencies
@@ -130,7 +130,7 @@ npm unlink -g @rajat/about
 
 ### Project Structure
 ```
-rajat-about/
+rajat-cli-card/
 ├── 📄 index.js          # Main CLI application
 ├── 📦 package.json      # Package configuration  
 ├── 📖 README.md         # Documentation
@@ -216,8 +216,8 @@ Contributions are welcome! Please follow these steps:
 
 ## 🐛 Issues & Support
 
-- **Bug Reports**: [GitHub Issues](https://github.com/malikrajat/rajat-about/issues)
-- **Feature Requests**: [GitHub Issues](https://github.com/malikrajat/rajat-about/issues)
+- **Bug Reports**: [GitHub Issues](https://github.com/malikrajat/rajat-cli-card/issues)
+- **Feature Requests**: [GitHub Issues](https://github.com/malikrajat/rajat-cli-card/issues)
 - **Email Support**: mr.rajatmalik@gmail.com
 
 ## 📈 Version History
