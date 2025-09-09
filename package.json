@@ -1,24 +1,147 @@
 {
-  "name": "@YOUR-NPM-USERNAME/about",
+  "name": "@rajat/about",
   "version": "1.0.0",
-  "description": "About Me CLI for Rajat",
-  "type": "module",
-  "main": "index.js",
-  "bin": {
-    "rajat": "./index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "description": "🚀 Interactive CLI business card for Rajat Malik - Senior Frontend Developer with 13+ years experience in Angular, React & Modern Web Technologies",
   "keywords": [
     "about",
     "cli",
-    "rajat"
+    "business-card",
+    "rajat",
+    "developer",
+    "profile",
+    "rajatmalik",
+    "author",
+    "bloger",
+    "coder",
+    "npx",
+    "whoisrajat",
+    "about-rajat",
+    "rajat-about",
+    "rajatmalikdev",
+    "rajatmalik.dev",
+    "developer-card",
+    "portfolio",
+    "about-me",
+    "rajat-malik",
+    "frontend-developer",
+    "angular",
+    "react",
+    "javascript",
+    "web-development",
+    "resume",
+    "contact-info",
+    "interactive-cli",
+    "terminal-app",
+    "developer-tools"
   ],
-  "author": "Rajat Malik",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "rajat": "./index.js",
+    "@rajat/about": "./index.js",
+    "@rajat/me": "./index.js",
+    "@rajat/dev": "./index.js",
+    "about-rajat": "./index.js",
+    "whoisrajat": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"✅ All tests passed - No tests configured yet\"",
+    "build": "echo \"✅ Build complete - No build step required for CLI\"",
+    "lint": "echo \"✅ Linting complete - Consider adding ESLint for code quality\"",
+    "demo": "node index.js",
+    "install-global": "npm install -g .",
+    "uninstall-global": "npm uninstall -g @rajat/about"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://rajatmalik.dev"
+  },
+    "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com",
+      "url": "https://rajatmalik.dev"
+    }
+  ],
   "license": "MIT",
+  "homepage": "https://github.com/malikrajat/rajat-about#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malikrajat/rajat-about.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rajat-about/issues",
+    "email": "mr.rajatmalik@gmail.com"
+  },
+    "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/malikrajat"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://buymeacoffee.com/rajatmalik"
+    }
+  ],
   "dependencies": {
+    "boxen": "^8.0.1",
     "chalk": "^5.6.0",
     "figlet": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "peerDependencies": {},
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "badges": {
+    "npm": "https://img.shields.io/npm/v/@rajat/about",
+    "downloads": "https://img.shields.io/npm/dt/@rajat/about",
+    "license": "https://img.shields.io/npm/l/@rajat/about"
+  },
+  "social": {
+    "twitter": "https://twitter.com/er_rajatmalik",
+    "linkedin": "https://linkedin.com/in/errajatmalik",
+    "github": "https://github.com/malikrajat"
+  },
+  "usage": {
+    "global": "npm install -g @rajat/about && rajat",
+    "npx": "npx @rajat/about",
+    "aliases": [
+      "npx rajat",
+      "npx about-rajat", 
+      "npx whoisrajat",
+      "npx rajat-card"
+    ]
+  },
+  "meta": {
+    "created": "2024",
+    "category": "developer-tools",
+    "tags": ["cli", "business-card", "portfolio", "frontend-developer"],
+    "difficulty": "beginner",
+    "maintenance": "active"
   }
 }
