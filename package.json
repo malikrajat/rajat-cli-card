@@ -1,7 +1,7 @@
 {
   "name": "@rajat/about",
   "version": "1.0.0",
- "description": "🚀 Interactive CLI business card for Rajat Malik - Senior Frontend Developer with 13+ years experience in Angular, React & Modern Web Technologies",
+  "description": "🚀 Interactive CLI business card for Rajat Malik - Senior Frontend Developer with 13+ years experience in Angular, React & Modern Web Technologies",
   "keywords": [
     "about",
     "cli",
@@ -40,12 +40,12 @@
     ".": "./index.js"
   },
   "bin": {
-    "rajat": "./index.js",
-    "@rajat/about": "./index.js",
-    "@rajat/me": "./index.js",
-    "@rajat/dev": "./index.js",
-    "about-rajat": "./index.js",
-    "whoisrajat": "./index.js"
+    "rajat": "index.js",
+    "about-rajat": "index.js",
+    "whoisrajat": "index.js",
+    "about": "index.js",
+    "me": "index.js",
+    "dev": "index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -65,7 +65,7 @@
     "email": "mr.rajatmalik@gmail.com",
     "url": "https://rajatmalik.dev"
   },
-    "contributors": [
+  "contributors": [
     {
       "name": "Rajat Malik",
       "email": "mr.rajatmalik@gmail.com",
@@ -76,13 +76,13 @@
   "homepage": "https://github.com/malikrajat/rajat-cli-card#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malikrajat/rajat-cli-card.git"
+    "url": "git+https://github.com/malikrajat/rajat-cli-card.git"
   },
   "bugs": {
     "url": "https://github.com/malikrajat/rajat-cli-card/issues",
     "email": "mr.rajatmalik@gmail.com"
   },
-    "funding": [
+  "funding": [
     {
       "type": "github",
       "url": "https://github.com/sponsors/malikrajat"
@@ -132,7 +132,7 @@
     "npx": "npx @rajat/about",
     "aliases": [
       "npx rajat",
-      "npx about-rajat", 
+      "npx about-rajat",
       "npx whoisrajat",
       "npx rajat-card"
     ]
@@ -140,7 +140,12 @@
   "meta": {
     "created": "2024",
     "category": "developer-tools",
-    "tags": ["cli", "business-card", "portfolio", "frontend-developer"],
+    "tags": [
+      "cli",
+      "business-card",
+      "portfolio",
+      "frontend-developer"
+    ],
     "difficulty": "beginner",
     "maintenance": "active"
   }
