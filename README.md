@@ -1,9 +1,9 @@
-# 🚀 @rajat/about - Interactive CLI Business Card
+# 🚀 about-rajat - Interactive CLI Business Card
 
-[![npm version](https://img.shields.io/npm/v/@rajat/about)](https://www.npmjs.com/package/@rajat/about)
-[![npm downloads](https://img.shields.io/npm/dt/@rajat/about)](https://www.npmjs.com/package/@rajat/about)
+[![npm version](https://img.shields.io/npm/v/about-rajat)](https://www.npmjs.com/package/about-rajat)
+[![npm downloads](https://img.shields.io/npm/dt/about-rajat)](https://www.npmjs.com/package/about-rajat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js Version](https://img.shields.io/node/v/@rajat/about)](https://nodejs.org/)
+[![Node.js Version](https://img.shields.io/node/v/about-rajat)](https://nodejs.org/)
 
 > A stunning, colorful CLI business card for **Rajat Malik** - Senior Frontend Developer with **13+ years** of experience in Angular, React & Modern Web Technologies.
 
@@ -25,13 +25,13 @@ This is an interactive terminal business card that showcases professional inform
 
 ### Option 1: NPX (Recommended - No Installation)
 ```bash
-npx @rajat/about
+npx about-rajat
 ```
 
 ### Option 2: Global Installation
 ```bash
 # Install globally
-npm install -g @rajat/about
+npm install -g about-rajat
 
 # Run with any of these commands
 rajat
@@ -125,7 +125,7 @@ npm link
 rajat
 
 # Unlink when done
-npm unlink -g @rajat/about
+npm unlink -g about-rajat
 ```
 
 ### Project Structure
@@ -152,17 +152,17 @@ npm run lint     # Code linting (placeholder)
 
 ### Global Installation
 ```bash
-npm install -g @rajat/about
+npm install -g about-rajat
 ```
 
 ### Local Project Dependency
 ```bash
-npm install @rajat/about
+npm install about-rajat
 ```
 
 ### Direct Execution (No Install)
 ```bash
-npx @rajat/about
+npx about-rajat
 ```
 
 ### Alternative Commands

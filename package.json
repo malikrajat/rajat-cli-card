@@ -1,5 +1,5 @@
 {
-  "name": "@rajat/about",
+  "name": "about-rajat",
   "version": "1.0.0",
   "description": "🚀 Interactive CLI business card for Rajat Malik - Senior Frontend Developer with 13+ years experience in Angular, React & Modern Web Technologies",
   "keywords": [
@@ -55,7 +55,7 @@
     "lint": "echo \"✅ Linting complete - Consider adding ESLint for code quality\"",
     "demo": "node index.js",
     "install-global": "npm install -g .",
-    "uninstall-global": "npm uninstall -g @rajat/about"
+    "uninstall-global": "npm uninstall -g about-rajat"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -118,9 +118,9 @@
     }
   },
   "badges": {
-    "npm": "https://img.shields.io/npm/v/@rajat/about",
-    "downloads": "https://img.shields.io/npm/dt/@rajat/about",
-    "license": "https://img.shields.io/npm/l/@rajat/about"
+    "npm": "https://img.shields.io/npm/v/about-rajat",
+    "downloads": "https://img.shields.io/npm/dt/",
+    "license": "https://img.shields.io/npm/l/about-rajat"
   },
   "social": {
     "twitter": "https://twitter.com/er_rajatmalik",
@@ -128,8 +128,8 @@
     "github": "https://github.com/malikrajat"
   },
   "usage": {
-    "global": "npm install -g @rajat/about && rajat",
-    "npx": "npx @rajat/about",
+    "global": "npm install -g about-rajat && about-rajat",
+    "npx": "npx about-rajat",
     "aliases": [
       "npx rajat",
       "npx about-rajat",
