@@ -73,13 +73,13 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/malikrajat/rajat-about#readme",
+  "homepage": "https://github.com/malikrajat/rajat-cli-card#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malikrajat/rajat-about.git"
+    "url": "https://github.com/malikrajat/rajat-cli-card.git"
   },
   "bugs": {
-    "url": "https://github.com/malikrajat/rajat-about/issues",
+    "url": "https://github.com/malikrajat/rajat-cli-card/issues",
     "email": "mr.rajatmalik@gmail.com"
   },
     "funding": [
